@@ -2,9 +2,9 @@ package com.mch.eureka.client;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
-@EnableEurekaServer//服务注册者
+@EnableEurekaClient//服务注册者
 @SpringBootApplication
 public class EurekaClientApplication {
 
